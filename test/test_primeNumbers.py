@@ -1,6 +1,7 @@
+import unittest
+
 from app import primeNumbers
 
-import unittest
 
 
 class Prime_Numbers_TestCase(unittest.TestCase):
