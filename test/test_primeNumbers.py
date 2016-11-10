@@ -12,6 +12,11 @@ class Prime_Numbers_TestCase(unittest.TestCase):
 	def test_case_primeNumbers(unittest.TestCase):
 		self.assertEqual(primeNumbers.generate_prime_numbers(10), [2, 3, 5, 7])
 
+	
+	def test_case_Negatives(unittest.TestCase):
+		self.assertEqual(primeNumbers.generate_prime_numbers(-6), [])
+
+
 if __name__ == '__Prime_Numbers_Test__':
 	Prime_Numbers_TestCase()
 		
