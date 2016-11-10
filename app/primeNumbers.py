@@ -2,7 +2,7 @@ def is_prime(number):
     '''
     function to check for prime numbers
     '''
-    if number == 1:
+    if number < 2:
         return False
     for n in range(2, number):
         if number % n == 0:
@@ -27,7 +27,7 @@ def generate_prime_numbers(n):
     
 
 def main():
-    print(generate_prime_numbers(100))
+    print(generate_prime_numbers(20))
     
 if __name__ == '__main__':
     main()
